@@ -22,7 +22,7 @@ function UseStatehooks() {
         <h2 >The value is incremented by = {count}</h2>
         
         <h2>{count}</h2>
-        <button onClick={increment}>Increment</button>
+        <button onClick={increment} className='m-4'>Increment</button>
         <button onClick={decrement}>Decrement</button>
     </div>
   )
