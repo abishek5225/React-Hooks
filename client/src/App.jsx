@@ -8,8 +8,12 @@ function App() {
 
   return (
     <>
-      <Hook1 />
-      <Hook2 />
+      <div className="hook1">
+        <Hook1 />
+      </div>
+      <div className="hook2">
+        <Hook2 />
+      </div>
     </>
   )
 }
