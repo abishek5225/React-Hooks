@@ -9,6 +9,7 @@ function App() {
 
   return (
     <>
+    <h1 className='mb-4'>Hooks </h1>
       <div className="hook">
         <Hook1 />
       </div>

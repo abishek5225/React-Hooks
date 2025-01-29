@@ -6,8 +6,10 @@
 }
 
 .hook{
-  height: 400px;
+  height: auto;
   background: #100101;
   border: 1px solid white;
   border-radius: 20px;
+  padding: 5rem;
+  margin-bottom: 10px;
 }

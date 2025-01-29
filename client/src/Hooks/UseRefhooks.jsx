@@ -14,6 +14,7 @@ export default function UseRefhooks() {
     <div>
       <div className="example1">
         <h1>UseRef Hook</h1>
+        <h1 >Example 1:</h1>
         <button onClick={()=>{
             setvalue(value +1)
         }}>Increment</button>
@@ -23,11 +24,11 @@ export default function UseRefhooks() {
           setvalue(value -1)
         }
       }>Decrement</button>
-      <h2 className='mt-4'>Render count: {count.current} </h2>
+      <h2 className='mt-4 text-2xl'>Render count: {count.current} </h2>
       </div>
-
-      <div className="example2">
-
+<hr />
+      <div className="mt-4">
+      <h1>Example 2</h1>
 
       </div>
     </div>
