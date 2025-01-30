@@ -10,7 +10,11 @@ function App() {
 
   return (
     <>
-    <h1 className='mb-4'>Hooks </h1>
+    <h1>What are hooks?
+    </h1>
+    <p >React Hooks are special functions that let you use React features (like state and lifecycle methods) 
+      inside functional components. Before hooks, you had to use class components to manage state and side
+       effects, but now you can do it in functional components using hooks.</p>
       <div className="hook">
         <Hook1 />
       </div>
