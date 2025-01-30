@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState , useMemo} from 'react'
 
 export default function UseMemohooks() {
 
@@ -6,9 +6,10 @@ export default function UseMemohooks() {
     const [counter, setCounter] = useState(0)
 
     function cube(num){
+      console.log('Calculation done')
         return num * num * num
     }
-    const result = cube(number)
+    const result = useMemo(()=> cube(number), [number])
 
   return (
     <div>
@@ -18,6 +19,8 @@ export default function UseMemohooks() {
       onChange={(e)=>{setNumber(e.target.value)}} 
       className='bg-white text-black p-2' placeholder='Enter a Number' />
       <h2>Cube of the number : {result}</h2>
+      <h2>Counter : {counter}</h2>
+      <button onClick={()=>{setCounter(counter+1)}} className='bg-blue-500 text-white p-2'>Increment Counter</button>
       
 
     </div>
