@@ -14,6 +14,7 @@ export default function UseMemohooks() {
   return (
     <div>
         <h1>useMemohook</h1>
+        <h2>usememo example</h2>
         
       <input type="number" value={number} 
       onChange={(e)=>{setNumber(e.target.value)}} 
